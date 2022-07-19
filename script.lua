@@ -94,6 +94,10 @@ GamesSection:NewButton("Phantom forces (3 dots)", "the key changes often Vstra.V
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
 end)
 
+GamesSection:NewButton("my hero mania", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/My-Hero-Mania/main/.lua"))()
+end)
+
 -- Settings
 local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("Settings")
