@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("sexist hub", "BloodTheme")
+local Window = Library.CreateLib("Sexist Hub", "BloodTheme")
 
 -- MAIN
 local Main = Window:NewTab("Main")
@@ -58,6 +58,17 @@ GamesSection:NewButton("Nicos Nextbot", "", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/djyYggjF', true))()
 end)
 
+GamesSection:NewButton("Arsenal", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
+end)
+
+GamesSection:NewButton("Bad business", "", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/AlexR32/Parvus/main/Loader.lua"))
+end)
+
+GamesSection:NewButton("BloxFruits OP", "", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/natoppo044/modzcaster/main/POWERX.lua"),true))()
+end)
 
 -- Settings
 local Settings = Window:NewTab("Settings")
