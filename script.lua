@@ -70,6 +70,26 @@ GamesSection:NewButton("BloxFruits OP", "", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/natoppo044/modzcaster/main/POWERX.lua"),true))()
 end)
 
+GamesSection:NewButton("Zen Hub", "Bloxfruits", function()
+    loadstring(game:HttpGet('https://robloxscripts.co.uk/keysystem.lua'))('dcfdd9188e8e0b99')
+end)
+
+GamesSection:NewButton("project slayers op", "BANNABLE", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/noRynx/miningsim/main/projectslayers"))()
+end)
+
+GamesSection:NewButton("GPO (Alt)", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/gTikiqnw"))()
+end)
+
+GamesSection:NewButton("MM2", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Sqvr1dev"))()
+end)
+
+GamesSection:NewButton("GUN SIMULATOR OP!", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jUgmRiU6", true))()
+end)
+
 -- Settings
 local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("Settings")
