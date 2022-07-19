@@ -90,6 +90,10 @@ GamesSection:NewButton("GUN SIMULATOR OP!", "", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/jUgmRiU6", true))()
 end)
 
+GamesSection:NewButton("Phantom forces (3 dots)", "the key changes often Vstra.V5_49601fb75ab8027b", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
+end)
+
 -- Settings
 local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("Settings")
