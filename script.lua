@@ -98,6 +98,10 @@ GamesSection:NewButton("my hero mania", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/My-Hero-Mania/main/.lua"))()
 end)
 
+GamesSection:NewButton("Jujutsu tycoon", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/CqEQnATk"))()
+end)
+
 -- Settings
 local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("Settings")
